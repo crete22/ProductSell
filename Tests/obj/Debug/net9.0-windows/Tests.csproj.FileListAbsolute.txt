@@ -1,0 +1,11 @@
+C:\Users\SKYLXRD\Desktop\Product sell\Tests\bin\Debug\net9.0-windows\.msCoverageSourceRootsMapping_Tests
+C:\Users\SKYLXRD\Desktop\Product sell\Tests\bin\Debug\net9.0-windows\.msCoverageExtensionSourceRootsMapping_Tests
+C:\Users\SKYLXRD\Desktop\Product sell\Tests\obj\Debug\net9.0-windows\Tests.csproj.AssemblyReference.cache
+C:\Users\SKYLXRD\Desktop\Product sell\Tests\obj\Debug\net9.0-windows\Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SKYLXRD\Desktop\Product sell\Tests\obj\Debug\net9.0-windows\Tests.AssemblyInfoInputs.cache
+C:\Users\SKYLXRD\Desktop\Product sell\Tests\obj\Debug\net9.0-windows\Tests.AssemblyInfo.cs
+C:\Users\SKYLXRD\Desktop\Product sell\Tests\obj\Debug\net9.0-windows\Tests.csproj.CoreCompileInputs.cache
+C:\Users\SKYLXRD\Desktop\Product sell\Tests\obj\Debug\net9.0-windows\Tests.gentestingplatformentrypointinputcache.cache
+C:\Users\SKYLXRD\Desktop\Product sell\Tests\obj\Debug\net9.0-windows\Tests.genautoregisteredextensionsinputcache.cache
+C:\Users\SKYLXRD\Desktop\Product sell\Tests\obj\Debug\net9.0-windows\AutoRegisteredExtensions.cs
+C:\Users\SKYLXRD\Desktop\Product sell\Tests\obj\Debug\net9.0-windows\TestPlatformEntryPoint.cs
