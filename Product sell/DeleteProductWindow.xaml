@@ -1,0 +1,13 @@
+﻿<Window x:Class="Product_sell.DeleteProductWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Удалить товар" Height="213" Width="409">
+    <Grid Margin="20">
+        <TextBlock x:Name="ProductInfoText" Text="Вы уверены, что хотите удалить этот товар?" 
+                   TextWrapping="Wrap" FontSize="16" Margin="0,0,0,20" VerticalAlignment="Top"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+            <Button Content="Удалить" Width="100" Margin="0,0,10,0" Click="DeleteButton_Click"/>
+            <Button Content="Отмена" Width="100" Click="CancelButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

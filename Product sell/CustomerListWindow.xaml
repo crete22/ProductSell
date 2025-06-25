@@ -1,0 +1,21 @@
+﻿<Window x:Class="Product_sell.CustomerListWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Список покупателей" Height="400" Width="600">
+    <Grid Margin="10">
+        <DataGrid x:Name="CustomersGrid" AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single" Margin="0,0,0,50">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="50"/>
+                <DataGridTextColumn Header="Логин" Binding="{Binding Login}" Width="*"/>
+                <DataGridTextColumn Header="Фамилия" Binding="{Binding Surname}" Width="100"/>
+                <DataGridTextColumn Header="Имя" Binding="{Binding Name}" Width="100"/>
+                <DataGridTextColumn Header="Почта" Binding="{Binding Mail}" Width="150"/>
+                <DataGridCheckBoxColumn Header="Заблокирован" Binding="{Binding IsBlocked}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,0,10">
+            <Button Content="Блокировать" Width="120" Margin="0,0,10,0" Click="BlockButton_Click"/>
+            <Button Content="Разблокировать" Width="120" Click="UnblockButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
